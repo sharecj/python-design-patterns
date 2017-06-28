@@ -1,1 +1,1 @@
-code based-on book <Learning Python Design Patterns>
+code based-on book &lt;Learning Python Design Patterns&gt;
