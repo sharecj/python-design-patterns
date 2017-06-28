@@ -6,7 +6,8 @@ class Singletone(object):
             cls.instance = super(Singletone, cls).__new__(cls)
         return cls.instance
 
-singletone = Singletone()
-another_singleton = Singletone()
-
-print singletone is another_singleton
+if __name__ == '__main__':
+    singletone = Singletone()
+    another_singleton = Singletone()
+    
+    print singletone is another_singleton
